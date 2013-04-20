@@ -11,7 +11,7 @@ public abstract class Node { //your classes will extend node. you must generate 
 	 */
 	public abstract boolean isGoalNode();
 	/**
-	 * Note: generateChildren MUST set the childNodes, childNodeCosts, and heuristic values
+	 * Note: generateChildren MUST set the childNodes, childNodeCosts, and the heuristic value
 	 */
 	public abstract void generateChildren();
 	/**

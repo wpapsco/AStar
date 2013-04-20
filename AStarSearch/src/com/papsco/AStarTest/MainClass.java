@@ -25,9 +25,9 @@ public class MainClass extends BasicGame {
 	public void init(GameContainer arg0)
 			throws SlickException {
 		// TODO Auto-generated method stub
-		Vector2f start = new Vector2f(0, 0);
+		Vector2f start = new Vector2f(100, 200);
 		cPos = new Vector2f(start.x, start.y);
-		Vector2f end = new Vector2f(100, 200);
+		Vector2f end = new Vector2f(150, 300);
 		executeState = StateController.search(new AStarTestNode(start, end));
 		System.out.println("completed");
 	}
